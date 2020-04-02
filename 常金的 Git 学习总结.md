@@ -1,20 +1,20 @@
 # 常金的 Git 学习总结
 
-## Git 理解
+## Git 理解 // 理解这个就不单独搞了，融入到其他节中
 ### 版本控制系统认知
 ### Git 实现
 ### Git 快照理解
 ### Git 的三种状态
 
-## Git 工作流
-### git add
-### git commit
-### git 工作流中的撤销
-
 ## Git 仓库
 ### 本地文件夹
 ### Git 仓库
 ### Git 远程仓库
+
+## Git 工作流
+### git add
+### git commit
+### git 工作流中的撤销
 
 ## Git 分支
 ## Git 配置
