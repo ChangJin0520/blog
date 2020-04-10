@@ -53,7 +53,7 @@ Git 仓库存在一个隐藏的 `.git` 文件夹，`.git` 内部存放版本控�
    其实，通俗的解释，Git 远程仓库也就是一个普通的 Git 仓库罢了，只是这个仓库放在某个远程服务器上。Git 作为一个分布式的版本控制系统，本地和远程仓库都是一样的。至于 GitHub，是一个 Git 仓库托管网站，大家的远程仓库放到他的服务器上。
 
 3. 本地文件夹、Git 仓库、Git 远程仓库之间的关系
-  ![仓库图片](images/git/repository.png)
+  ![仓库图片](https://github.com/ChangJin0520/blog/blob/git/images/git/repository.png)
   图中大概介绍了三者的关系。
 
 4. 仓库相关命令记忆  
@@ -73,7 +73,7 @@ Git 仓库存在一个隐藏的 `.git` 文件夹，`.git` 内部存放版本控�
 ## Git 工作流
 Git 使用中，一般操作方式大致为 修改 -> 暂存 -> 提交。形成一个工作流。  
 
-![git工作流](images/git/flow.png)
+![git工作流](https://github.com/ChangJin0520/blog/blob/git/images/git/flow.png)
 1. Git 仓库中文件常见 4 种状态
    1. untracked 新添加到 Git 仓库中的文件会被标识为未追踪状态。
    2. unmodefied 未修改状态，`git clone` 下来的文件，初始为未修改状态；commit 命令提交过的文件也为未修改状态。
@@ -91,7 +91,7 @@ Git 使用中，一般操作方式大致为 修改 -> 暂存 -> 提交。形成�
 
 3. `git commit`  
    commit 命令用来提交一个版本，提交完成之后，就会有一个版本存在 Git 仓库中。  
-   ![](./images/git/commit.webp)
+   ![](https://github.com/ChangJin0520/blog/blob/git/images/git/commit.webp)
    这里有一篇文章可以帮助理解 Git commit 的内部原理。[这才是真正的Git——Git内部原理揭秘！](https://zhuanlan.zhihu.com/p/96631135)
 4. 撤销相关  
    Git 操作过程中，会存在一些撤销操作的情况。  
@@ -107,11 +107,11 @@ Git 使用中，一般操作方式大致为 修改 -> 暂存 -> 提交。形成�
    常金：多读几遍 Pro Git 上的这段介绍，结合参考资料中的*怎么理解 git 的快照*细细品味吧
 2. `git branch`  
    分支命令总结：依然是增删改查 多一个切换 合并 变基  
-   ![分支](./images/git/branch.png)
+   ![分支](https://github.com/ChangJin0520/blog/blob/git/images/git/branch.png)
 3. 远程分支、跟踪分支  
    摘录：[Pro Git - 远程分支](https://www.progit.cn/#_remote_branches)  
    常金：
-   ![跟踪分支](./images/git/track.png)
+   ![跟踪分支](https://github.com/ChangJin0520/blog/blob/git/images/git/track.png)
 4. 分支流水线及特性分支  
    摘录：阅读 Pro Git 中，这一节[分支开发工作流](https://www.progit.cn/#_%E5%88%86%E6%94%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E4%BD%9C%E6%B5%81)，了解更多。  
    常金：平常开发中常常会遇到 `master`、`develop`、`hotfix-xx`、`feature-xxx` 这种命名的分支。其实这只是一种约定俗成，  
